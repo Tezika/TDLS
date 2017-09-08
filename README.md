@@ -30,4 +30,4 @@ Modifying some descriptions.
 
 Update the README.md.
 
-** Hope you can Enjoy!**
+*Hope you can Enjoy!*
