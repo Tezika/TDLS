@@ -3,7 +3,7 @@
 Welcome to the **dls** or **tdls** extension for Visual studio code. This preview provides you some features about this extension.
 
 ## Features
- * **Friendly Synatax Highlighting**
+ * **Friendly Syntax Highlighting**
  * **Custom Snippets**
  * **Robust Language Server**
 
@@ -13,7 +13,7 @@ Welcome to the **dls** or **tdls** extension for Visual studio code. This previe
 
 ## Extension Settings
 
- * Install it.
+ * Search "TDLS" in Visual Studio Code Extension Marketplace, then install it.
  * Change your color theme to "TDSL For Designer".
 
 ## Find a Bug
@@ -30,4 +30,4 @@ Modifying some descriptions.
 
 Update the README.md.
 
-** Hope you can Enjoy!**
+**Hope you can Enjoy!**
