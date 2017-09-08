@@ -1,0 +1,16 @@
+{
+    "Event": {
+        "prefix": "plot",
+        "body": [
+            "# PlotName"
+        ],
+        "description": "Dialogue Plot(Bridge)"
+    },
+    "Dialogue": {
+        "prefix": "dialogue",
+        "body":[
+            "- {time} characterName [emotion]: dialogue content"
+        ],
+        "desciption":"Dialogue Entity"
+    }
+}

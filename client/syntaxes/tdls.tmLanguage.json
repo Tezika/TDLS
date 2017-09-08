@@ -1,0 +1,42 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "tdls",
+	"patterns": [
+		{
+			"include": "#keywords"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "tdls.comment",
+					"match": "\\(([^\\)]*)\\)",
+					"captures": {
+						"1": {
+							"name": "entity.tdls.comment"
+						}
+					}
+				},
+				{
+					"name": "tdls.id",
+					"match": "\\<([^\\<]*)\\>",
+					"captures": {
+						"1": {
+							"name": "entity.tdls.id"
+						}
+					}
+				},
+				{
+					"name": "tdls.dialogue.duration",
+					"match": "\\{([^\\}]*)\\}"
+				},
+				{
+					"name": "tdls.dialogue.emotion",
+					"match": "\\[([^\\]]*)\\]"
+				}
+			]
+		}
+	},
+	"scopeName": "source.tdls"
+}
