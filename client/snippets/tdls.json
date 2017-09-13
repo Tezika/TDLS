@@ -2,14 +2,14 @@
     "Event": {
         "prefix": "plot",
         "body": [
-            "# PlotName"
+            "# ${1:PlotName} $0"
         ],
         "description": "Dialogue Plot(Bridge)"
     },
     "Dialogue": {
         "prefix": "dialogue",
         "body":[
-            "- {time} characterName [emotion]: dialogue content"
+            "- {${1:time}} ${2:characterName} [${3:emotion}]: ${4:dialogue content} $0"
         ],
         "desciption":"Dialogue Entity"
     }
