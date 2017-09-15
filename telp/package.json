@@ -1,0 +1,19 @@
+{
+  "name": "telp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "./dist/index.js",
+  "type": "./dist/index.d.ts",
+  "author": "Tezika Zhou",
+  "license": "MIT",
+  "dependencies": {
+    "single-line-log": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.28",
+    "ts-node": "^3.3.0"
+  }
+}
