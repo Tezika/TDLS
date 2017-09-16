@@ -8,7 +8,10 @@
             "es2016"
         ],
         "sourceMap": false,
-        "declaration": true
+        "declaration": true,
+        "types": [
+            "node"
+          ]
     },
     "exclude": [
         "node_modules",
