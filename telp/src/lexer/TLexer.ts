@@ -1,9 +1,6 @@
 
-import * as logger from 'single-line-log'
+import * as log from 'fancy-log'
 
 export function HelloWorld(words: string) {
-    logger.log(words);
-    logger.log(words);
+  log("Hello World: " + words);
 }
-
-HelloWorld("hehehe");

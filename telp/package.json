@@ -10,10 +10,10 @@
   "author": "Tezika Zhou",
   "license": "MIT",
   "dependencies": {
-    "single-line-log": "^1.1.2"
   },
   "devDependencies": {
     "@types/node": "^8.0.28",
+    "fancy-log": "^1.3.0",
     "ts-node": "^3.3.0"
   }
 }
