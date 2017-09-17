@@ -1,4 +1,3 @@
-.npmignore
 dist/
 .vscode/
 node_modules/
