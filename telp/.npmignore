@@ -1,2 +1,5 @@
 .gitignore
-*.ts
+src/
+package-lock.json
+test.ts
+index.ts

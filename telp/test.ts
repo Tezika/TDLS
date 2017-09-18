@@ -1,5 +1,4 @@
-
-///<reference path="./node_modules/@types/node/index.d.ts"/>
-import { Lexer } from './src/lexer/TLexer'
+///<reference path="./telp.d.ts"/>
+import { Lexer } from 'lexer'
 var testLexer = new Lexer("Tezika");
 testLexer.Greeting();

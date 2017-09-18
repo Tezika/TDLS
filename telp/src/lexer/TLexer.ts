@@ -1,9 +1,4 @@
-
 import * as log from 'fancy-log'
-
-export function HelloWorld(words: string) {
-    log("Hello World: " + words);
-}
 
 export class Lexer {
     private _greeting:string;

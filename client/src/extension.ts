@@ -6,6 +6,7 @@
 
 import * as path from 'path';
 import * as vscode from 'vscode';
+import * as telp from 'telp';
 
 import { workspace, Disposable, ExtensionContext } from 'vscode';
 import { LanguageClient, LanguageClientOptions, SettingMonitor, ServerOptions, TransportKind } from 'vscode-languageclient';
@@ -41,6 +42,9 @@ export function activate(context: ExtensionContext) {
 	// Push the disposable to the context's subscriptions so that the 
 	// client can be deactivated on extension deactivation
 	context.subscriptions.push(disposable);
+
+	var test = new telp.Lexer("hehe");
+	test.Greeting();
 }
 
 vscode.languages.registerDocumentFormattingEditProvider('tdls', {
