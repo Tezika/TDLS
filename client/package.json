@@ -86,7 +86,7 @@
         "vscode": "^1.0.3"
     },
     "dependencies": {
-        "telp": "^1.0.6",
+        "telp": "^1.0.8",
         "vscode-languageclient": "^3.1.0"
     }
 }
