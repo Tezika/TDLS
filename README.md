@@ -22,6 +22,10 @@ Welcome to the **dls** or **tdls** extension for Visual studio code. This previe
 
 ## Release Notes
 
+### 0.1.3
+ 1. add new file extension(.sdls) support
+ 2. add the 'npm compile' command, which can help users to build and publish the package automatically through a npm command.
+
 ### 0.1.2
 
 Modifying some descriptions.
